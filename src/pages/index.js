@@ -32,15 +32,15 @@ import {
 import { faGoogle } from "@fortawesome/free-brands-svg-icons"
 
 import GmailLoginImage from "../images/gmail.png"
-import ClassesImage from "../images/classes.png"
-import FinalsImage from "../images/finals.png"
-import ARCImage from "../images/arc.png"
-import ARCEventsImage from "../images/arcevents.png"
-import V2LibrariesImage from "../images/v2libraries.png"
+import ClassesImage from "../images/classlist2.1.0.png"
+import FinalsImage from "../images/finals2.1.0.png"
+import ARCImage from "../images/arc2.1.0.png"
+import ARCEventsImage from "../images/arcevents2.1.0.png"
+import V2LibrariesImage from "../images/libraries2.1.0.png"
 import V2FeedbackImage from "../images/v2feedback.png"
-import SearchImage from "../images/v2search.png"
-import CalendarImage from "../images/v2calendar.png"
-import CourseInfoPage from "../images/courseinfo.png"
+import SearchImage from "../images/search2.1.0.png"
+import CalendarImage from "../images/calendar2.1.0.png"
+import CourseInfoPage from "../images/courseinfo2.1.0.png"
 import NotificationsImage from "../images/notifications.png"
 
 const features = [
