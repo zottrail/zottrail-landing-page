@@ -17,6 +17,7 @@ import {
   faBell,
   faBook,
   /*faCalendarDay,*/ faCalendarWeek,
+  faChartBar,
   faClock,
   faComments,
   faDumbbell,
@@ -32,7 +33,7 @@ import {
 import { faGoogle } from "@fortawesome/free-brands-svg-icons"
 
 import GmailLoginImage from "../images/gmail.png"
-import ClassesImage from "../images/classlist2.1.0.png"
+import ClassesImage from "../images/home2.1.0.png"
 import FinalsImage from "../images/finals2.1.0.png"
 import ARCImage from "../images/arc2.1.0.png"
 import ARCEventsImage from "../images/arcevents2.1.0.png"
@@ -42,6 +43,8 @@ import SearchImage from "../images/search2.1.0.png"
 import CalendarImage from "../images/calendar2.1.0.png"
 import CourseInfoPage from "../images/courseinfo2.1.0.png"
 import NotificationsImage from "../images/notifications.png"
+import GradeDistributionsSingle from '../images/gradesingle2.1.0.png'
+import GradeDistributionsComparison from '../images/gradedistributions2.1.0.png'
 
 const features = [
   {
@@ -57,18 +60,6 @@ const features = [
     fa: faBell,
   },
   {
-    name: "Search for Classes via WebSOC Integration",
-    image: SearchImage,
-    className: "feature-fa-info",
-    fa: faSearch,
-  },
-  {
-    name: "Realtime Class Information",
-    image: CourseInfoPage,
-    className: "feature-fa-realtime",
-    fa: faClock,
-  },
-  {
     name: "Built-in Week Calendar",
     image: CalendarImage,
     className: "feature-fa-calendar",
@@ -81,10 +72,16 @@ const features = [
     fa: faUniversity,
   },
   {
-    name: "Finals",
-    image: FinalsImage,
-    className: "feature-fa-info",
-    fa: faUniversity,
+    name: "Grade Distributions",
+    image: GradeDistributionsSingle,
+    className: "feature-fa-bar-chart",
+    fa: faChartBar,
+  },
+  {
+    name: "Grade Distributions - Comparisons",
+    image: GradeDistributionsComparison,
+    className: "feature-fa-bar-chart",
+    fa: faChartBar,
   },
   {
     name: "Library Availability Page",
@@ -103,6 +100,24 @@ const features = [
     image: ARCEventsImage,
     className: "feature-fa-arc-events",
     fa: faDumbbell,
+  },
+  {
+    name: "Finals",
+    image: FinalsImage,
+    className: "feature-fa-info",
+    fa: faUniversity,
+  },
+  {
+    name: "Search for Classes via WebSOC Integration",
+    image: SearchImage,
+    className: "feature-fa-info",
+    fa: faSearch,
+  },
+  {
+    name: "Realtime Class Information",
+    image: CourseInfoPage,
+    className: "feature-fa-realtime",
+    fa: faClock,
   },
   {
     name: "Built-in Feedback Form",
@@ -171,7 +186,7 @@ const FeatureSection = ({ title, features, className, setFeature }) => (
 )
 
 const IndexPage = () => {
-  const [feature, setFeature] = useState(features[2])
+  const [feature, setFeature] = useState(features[3])
 
   return (
     <Layout>
